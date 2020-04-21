@@ -15,10 +15,10 @@ function About() {
         
         <div className={styles.about_text_container}>
         
-        <Parallax classname={styles.about_content} x={[70, 40]} y={[0,10]}>
-            <div className={styles.about_content_text}><span className={styles.emphasis_text}>I am a frontend developer and visual designer who's obsessed with building things.</span>Especially passionate about interactive user interfaces, I'm always exploring ways to combine web development, illustration, and animation.</div>
+        <Parallax classname={styles.about_content} x={[70, 30]} y={[0,50]}>
+            <div className={styles.about_content_text}><span className={styles.emphasis_text}>I am a frontend developer and visual designer who's obsessed with building things.</span>Especially passionate about interactive user interfaces, I'm always exploring new ways to combine web development, illustration, and animation.<span className={styles.emphasis_text}>If I don't know how to do something, I figure it out.</span>I love challenges and tackling new technologies.</div>
         </Parallax>
-        <Parallax className={styles.portrait_container} x={[-70,-40]} y={[0,10]}>
+        <Parallax className={styles.portrait_container} x={[-70,-30]} y={[0,80]}>
             <img className={styles.portrait_image} src={ Portrait } alt="portrait" />
         </Parallax>
    
