@@ -189,7 +189,7 @@ position: absolute;
 
 .arrow{
     position: absolute;
-    top: 85%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%,-50%);
     animation: fadeIn 2s;
@@ -216,10 +216,10 @@ position: absolute;
 }
 
 .circle {
-    display: block;
+    display: absolute;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20vh;
+    margin-top: 25vh;
     width: 80rem;
     height: 80rem;
     background-color: white; 
@@ -228,6 +228,9 @@ position: absolute;
     animation: scaleUp 1s;
     animation-fill-mode: backwards;
 }
+
+
+
 @keyframes animate {
     0%{
         opacity: 0;
@@ -288,3 +291,18 @@ position: absolute;
         transform: scale(1)
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .circle {
+      width: 5rem;
+      height: 5rem;     
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .circle {
+      width: 40rem;
+      height: 40rem;
+     
+    }
+  }
