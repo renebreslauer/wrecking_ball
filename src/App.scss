@@ -1,0 +1,23 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+ 
+    background-color:  #fdb713;
+}
+
+h1 {
+    font-size: 12rem;
+    font-family: proxima-nova, sans-sarif;
+    text-shadow: 3px 3px black;
+    color: white;
+}
