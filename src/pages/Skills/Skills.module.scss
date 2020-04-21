@@ -1,0 +1,30 @@
+.skills_container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    align-items: center;
+    
+}
+
+.skills_list {
+  font-family: proxima-nova, sans-serif;
+  text-transform: uppercase; 
+  font-size: 8rem;
+  font-weight: 900;
+  width: 75vw;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: fill;
+  line-break: 0;
+}
+
+span {
+display: inline;
+}
+
+.skills_svg {
+    width: 50rem;
+}
