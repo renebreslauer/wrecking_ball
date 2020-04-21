@@ -7,7 +7,9 @@ function Timeline() {
     return (
         <ScrollableAnchor id={'Timeline'}>
         <div className={styles.timeline_container}>
-            <h1>Timeline</h1>
+            <Parallax className={styles.timeline_header} x={[-90, 0]}>
+            <h1>Experience</h1>
+            </Parallax>
         </div>
         </ScrollableAnchor>
     )
