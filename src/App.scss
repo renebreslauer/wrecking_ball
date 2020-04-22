@@ -1,23 +1,31 @@
+//Variables
+$color-primary: #fdb713;
+$color-primary-dark: #d29229;
+
+$color-black: #000;
+$color-white: #fff;
+
+$font-primary: proxima-nova, sans-sarif;
+
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
- 
-    background-color:  #fdb713;
+  background-color: $color-primary;
 }
 
 h1 {
-    font-size: 12rem;
-    font-family: proxima-nova, sans-sarif;
-    text-shadow: 3px 3px black;
-    color: white;
+  font-size: 12rem;
+  font-family: $font-primary;
+  text-shadow: 3px 3px $color-black;
+  color: $color-white;
 }

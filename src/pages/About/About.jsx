@@ -5,28 +5,44 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 import { Parallax } from 'react-scroll-parallax'
 
 function About() {
-    return (
+  return (
     <ScrollableAnchor id={'About'}>
-    <div className={styles.about_container} >
-        <Parallax className={styles.about_header} x={[-50, 0]}
-        >
-            <h1>Hi! I'm Rene.</h1>
-          </Parallax>   
-        
+      <div className={styles.about_container}>
+        <Parallax className={styles.about_header} x={[-50, 0]}>
+          <h1>Hi! I'm Rene.</h1>
+        </Parallax>
         <div className={styles.about_text_container}>
-        
-        <Parallax classname={styles.about_content} x={[70, 30]} y={[0,50]}>
-            <div className={styles.about_content_text}><span className={styles.emphasis_text}>I am a frontend developer and visual designer who's obsessed with building things.</span>Especially passionate about interactive user interfaces, I'm always exploring new ways to combine web development, illustration, and animation.<span className={styles.emphasis_text}>If I don't know how to do something, I figure it out.</span>I love challenges and tackling new technologies.</div>
-        </Parallax>
-        <Parallax className={styles.portrait_container} x={[-70,-30]} y={[0,80]}>
-            <img className={styles.portrait_image} src={ Portrait } alt="portrait" />
-        </Parallax>
-   
-    
- </div>
-     </div>
+          <Parallax classname={styles.about_content} x={[70, 30]} y={[20, 20]}>
+            <div className={styles.about_content_text}>
+              <span className={styles.emphasis_text}>
+                I am a frontend developer and visual designer who's obsessed
+                with building things.
+              </span>
+              Especially passionate about interactive user interfaces, I'm
+              always exploring new ways to combine web development,
+              illustration, and animation.
+              <span className={styles.emphasis_text}>
+                If I don't know how to do something, I figure it out.
+              </span>
+              I love challenges and tackling new technologies.
+            </div>
+          </Parallax>
+          <Parallax
+            className={styles.portrait_container}
+            x={[-70, -30]}
+            y={[0, 80]}
+          >
+            <img
+              className={styles.portrait_image}
+              src={Portrait}
+              alt="portrait"
+            />
+          </Parallax>
+        </div>
+        <div className={styles.background_overflow}></div>
+      </div>
     </ScrollableAnchor>
-    )
+  )
 }
 
 export default About

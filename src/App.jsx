@@ -7,14 +7,14 @@ import Contact from '../src/pages/Contact/Contact'
 import './App.scss'
 
 function App() {
-    return (
+  return (
     <>
-    <Intro />
-    <About />
-    <Timeline />
-    <Contact />
+      <Intro />
+      <About />
+      <Timeline />
+      <Contact />
     </>
-    )
+  )
 }
 
 export default App

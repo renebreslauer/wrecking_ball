@@ -1,308 +1,300 @@
-
 .intro_container {
-    top: 4rem;
-    height: 100vh;
-    left: 50%;
+  height: 100vh;
+  left: 50%;
 }
 .intro_svg {
-top: 40%;
-left: 50%;
-transform: translate(-50%,-50%);
-width: 95vw;
-position: absolute;
-    &_letter {
-        stroke: black;
-        fill: none;
-        stroke-width: 3;
-        stroke-dasharray: 4000;
-        stroke-dashoffset: 4000;
-        animation-iteration-count: 1;
-        animation: draw 8s linear;
-        transition: 3s ease-in-out;
-        animation-fill-mode: forwards;
-       
-        }
-    }
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95vw;
+  position: absolute;
+  &_letter {
+    stroke: black;
+    fill: none;
+    stroke-width: 3;
+    stroke-dasharray: 4000;
+    stroke-dashoffset: 4000;
+    animation-iteration-count: 1;
+    animation: draw 8s linear;
+    transition: 3s ease-in-out;
+    animation-fill-mode: forwards;
+  }
+}
 
-    #intro_svg_letter_16 {
-        animation-delay: 1s;
-    }
-    #intro_svg_letter_15 {
-        animation-delay: 1.4s;
-    }
+#intro_svg_letter_16 {
+  animation-delay: 1s;
+}
+#intro_svg_letter_15 {
+  animation-delay: 1.4s;
+}
 #intro_svg_letter_14 {
-        animation-delay: 2s;
-    }
+  animation-delay: 2s;
+}
 #intro_svg_letter_13 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 2s, 4s; 
-    }
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 2s, 4s;
+}
 #intro_svg_letter_12 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 2.2s, 4s; 
-    }
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.2s, 4s;
+}
 #intro_svg_letter_11 {
-        stroke: black;
-        fill: none;
-        stroke-width: 3;
-        stroke-dasharray: 4000;
-        stroke-dashoffset: 4000;
-        animation-iteration-count: 1;
-        animation: draw 8s linear, fillIn 5s;
-        transition: 3s ease-in-out, 8s;
-        animation-fill-mode: forwards;
-        animation-delay: 2.4s, 4s; 
-    }
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.4s, 4s;
+}
 #intro_svg_letter_10 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 2.6s, 4s; 
-    }
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.6s, 4s;
+}
 #intro_svg_letter_9 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 2.8s, 4s; 
-    }
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 2.8s, 4s;
+}
 #intro_svg_letter_8 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 3s, 4s; 
-    }  
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s, 4s;
+}
 #intro_svg_letter_7 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 3.2s, 4s; 
-    }  
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.2s, 4s;
+}
 #intro_svg_letter_6 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 3.6s, 4s; 
-    }      
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 3.6s, 4s;
+}
 #intro_svg_letter_5 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 4s, 4s; 
-    }    
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 4s, 4s;
+}
 #intro_svg_letter_4 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 6s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 4.2s, 4s; 
-        
-    }     
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 6s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.2s, 4s;
+}
 #intro_svg_letter_3 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    transition: 3s ease-in-out, 8s;
-    animation-fill-mode: forwards;
-    animation-delay: 4.4s, 4s; 
-    } 
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  transition: 3s ease-in-out, 8s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.4s, 4s;
+}
 #intro_svg_letter_2 {
-    stroke: black;
-    fill: none;
-    stroke-width: 3;
-    stroke-dasharray: 4000;
-    stroke-dashoffset: 4000;
-    animation-iteration-count: 1;
-    animation: draw 8s linear, fillIn 5s;
-    animation-fill-mode: forwards;
-    animation-delay: 4.6s, 4s;
-    transition: 3s ease-in-out, 8s ease-in-out;
-        }
+  stroke: black;
+  fill: none;
+  stroke-width: 3;
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation-iteration-count: 1;
+  animation: draw 8s linear, fillIn 5s;
+  animation-fill-mode: forwards;
+  animation-delay: 4.6s, 4s;
+  transition: 3s ease-in-out, 8s ease-in-out;
+}
 
 .subtitle_svg {
-    position: absolute;
-    fill: #d29229;
-    animation: Grow;
-    animation-delay: 6.5s;
-    animation-fill-mode: backwards; 
+  position: absolute;
+  fill: #d29229;
+  animation: Grow;
+  animation-delay: 6.5s;
+  animation-fill-mode: backwards;
 }
 
-.arrow{
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    animation: fadeIn 2s;
-    animation-delay: 7s;
-    animation-fill-mode: backwards;
-        }
+.arrow {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: fadeIn 2s;
+  animation-delay: 7s;
+  animation-fill-mode: backwards;
+}
 
-.arrow span{
-    display: block;
-    width: 30px;
-    height: 30px;
-    border-bottom: 5px solid black;
-    border-right: 5px solid black;
-    transform: rotate(45deg);
-    margin: -10px;
-    animation: animate 2s infinite;
-  
+.arrow span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
 }
-.arrow span:nth-child(2){
-    animation-delay: -0.2s;
+.arrow span:nth-child(2) {
+  animation-delay: -0.2s;
 }
-.arrow span:nth-child(3){
-    animation-delay: -0.4s;
+.arrow span:nth-child(3) {
+  animation-delay: -0.4s;
 }
 
 .circle {
-    display: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15vh;
-    width: 80rem;
-    height: 80rem;
-    background-color: white; 
-    border-radius: 200%;
-    mix-blend-mode: hue;
-    animation: scaleUp 1s;
-    animation-fill-mode: backwards;
+  display: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+  width: 80rem;
+  height: 80rem;
+  background-color: white;
+  border-radius: 200%;
+  mix-blend-mode: hue;
+  animation: scaleUp 1s;
+  animation-fill-mode: backwards;
 }
-
-
 
 @keyframes animate {
-    0%{
-        opacity: 0;
-        transform: rotate(45deg) translate(-20px,-20px);
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-        transform: rotate(45deg) translate(20px,20px);
-    }
+  0% {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
 }
 
-
-
 @keyframes draw {
-   
-       to {
-            stroke-dashoffset: 0;
-   }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 
 @keyframes fillIn {
-    0% {
-        fill: none;
-        fill-opacity: 0%
-    }
-    100% {
-        fill: black;
-        fill-opacity: 100%;
-    }
+  0% {
+    fill: none;
+    fill-opacity: 0%;
+  }
+  100% {
+    fill: black;
+    fill-opacity: 100%;
+  }
 }
 
 @keyframes Grow {
-    0% {
-        transform: scaleY(121)
-    }
-    100% {
-        transform: scaleY(1)
-    }
+  0% {
+    transform: scaleY(121);
+  }
+  100% {
+    transform: scaleY(1);
+  }
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0%;
-    }
-    to {
-        opacity: 100%
-    }
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
 
 @keyframes scaleUp {
-    from {
-        transform: scale(0)
-    }
-    to {
-        transform: scale(1)
-    }
+  0% {
+    transform: scale(0);
+  }
+  90% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .circle {
-      width: 5rem;
-      height: 5rem;     
-    }
+  .circle {
+    width: 5rem;
+    height: 5rem;
   }
+}
 
-  @media only screen and (max-width: 800px) {
-    .circle {
-      width: 40rem;
-      height: 40rem;
-     
-    }
+@media only screen and (max-width: 800px) {
+  .circle {
+    width: 40rem;
+    height: 40rem;
   }
+}

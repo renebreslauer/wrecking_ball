@@ -1,0 +1,89 @@
+@import '../../App.scss';
+
+//variables
+$grid-width: 100vw;
+$grid-height: 90vh;
+$col-width: calc((#{$grid-width}/ 4));
+$col-height: calc((#{$grid-height} / 4));
+
+.skills_grid {
+  margin-top: 10rem;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  max-width: $grid-width;
+  margin: 0-auto;
+
+  [class^='col-'] {
+    float: left;
+  }
+}
+
+.col_1_of_4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: $col-width;
+  height: $col-height;
+  text-align: center;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 1s;
+  transition: 1s;
+
+  p {
+    position: absolute;
+    font-family: $font-primary;
+    font-size: 3rem;
+    font-weight: 700;
+    transition: 0.5s ease-in-out;
+    color: white;
+  }
+
+  &_overlay {
+    height: $col-height;
+    width: $col-width;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: absolute;
+    transition: 0.5s;
+  }
+
+  &_static {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    transition: 0.5s;
+  }
+
+  &_active {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    transition: 0.5s;
+    opacity: 0;
+  }
+
+  &:hover &static {
+    opacity: 0;
+  }
+  &:hover &_active,
+  &:focus &_active {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 100;
+  }
+}
