@@ -13,7 +13,7 @@ function About() {
             <h1>Hi! I'm Rene.</h1>
           </Parallax>
 
-          <Parallax classname={styles.about_content} x={[100, 40]}>
+          <Parallax classname={styles.about_content} x={[70, 40]}>
             <div className={styles.about_content_text}>
               <span className={styles.emphasis_text}>
                 I am a frontend developer and visual designer who's obsessed
@@ -28,7 +28,7 @@ function About() {
               I love challenges and tackling new technologies.
             </div>
           </Parallax>
-          <Parallax className={styles.portrait_container} x={[-100, -40]}>
+          <Parallax className={styles.portrait_container} x={[-70, -40]}>
             <img
               className={styles.portrait_image}
               src={Portrait}
