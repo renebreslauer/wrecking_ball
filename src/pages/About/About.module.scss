@@ -100,3 +100,18 @@
     flex-wrap: none;
   }
 }
+
+@media only screen and (min-width: 2000px) {
+  .portrait_container {
+    top: 30%;
+    width: 100rem;
+    height: 100rem;
+  }
+  .about_content_text {
+    margin-top: 70%;
+    font-size: 4rem;
+  }
+  .about_header {
+    margin-top: 30rem;
+  }
+}

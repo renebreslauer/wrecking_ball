@@ -306,3 +306,10 @@
     display: none;
   }
 }
+
+@media only screen and (min-width: 2000px) {
+  .circle {
+    width: 90rem;
+    height: 90rem;
+  }
+}
