@@ -8,10 +8,11 @@ function About() {
   return (
     <ScrollableAnchor id={'About'}>
       <div className={styles.about_container}>
-        <Parallax className={styles.about_header} x={[-50, 0]}>
-          <h1>Hi! I'm Rene.</h1>
-        </Parallax>
         <div className={styles.about_text_container}>
+          <Parallax className={styles.about_header} y={[-100, 0]}>
+            <h1>Hi! I'm Rene.</h1>
+          </Parallax>
+
           <Parallax classname={styles.about_content} x={[70, 30]} y={[30, 10]}>
             <div className={styles.about_content_text}>
               <span className={styles.emphasis_text}>

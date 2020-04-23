@@ -9,8 +9,10 @@
 }
 
 .about_header {
-  margin-top: -20rem;
+  margin-top: 20rem;
   margin-left: 5rem;
+  position: absolute;
+  z-index: 1;
 }
 
 .about_text_container {
@@ -30,7 +32,7 @@
   flex-flow: column wrap;
   font-family: proxima-nova, sans-sarif;
   color: $color-black;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
   width: 70rem;
   margin-top: 20rem;
