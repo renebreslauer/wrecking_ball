@@ -63,3 +63,18 @@
   z-index: -1;
   margin-top: 40rem;
 }
+
+@media only screen and (max-width: 600px) {
+  .about_text_container {
+    display: flex;
+    flex-flow: column wrap;
+    flex-direction: column;
+    background-color: $color-white;
+    background-image: url('../../components/assets/graph-paper.png');
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    clip-path: polygon(0 0vh, 100% 0, 100% 100vh, 0 100%);
+    align-items: center;
+  }
+}

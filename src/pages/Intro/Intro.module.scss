@@ -287,8 +287,14 @@
 
 @media only screen and (max-width: 600px) {
   .circle {
-    width: 5rem;
-    height: 5rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  .arrow span {
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
   }
 }
 
