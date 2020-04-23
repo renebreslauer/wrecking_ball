@@ -12,7 +12,7 @@ function About() {
           <h1>Hi! I'm Rene.</h1>
         </Parallax>
         <div className={styles.about_text_container}>
-          <Parallax classname={styles.about_content} x={[70, 30]} y={[20, 20]}>
+          <Parallax classname={styles.about_content} x={[70, 30]} y={[30, 10]}>
             <div className={styles.about_content_text}>
               <span className={styles.emphasis_text}>
                 I am a frontend developer and visual designer who's obsessed
