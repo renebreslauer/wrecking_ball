@@ -9,11 +9,11 @@ function About() {
     <ScrollableAnchor id={'About'}>
       <div className={styles.about_container}>
         <div className={styles.about_text_container}>
-          <Parallax className={styles.about_header} y={[-100, 0]}>
+          <Parallax className={styles.about_header} y={[-50, 10]}>
             <h1>Hi! I'm Rene.</h1>
           </Parallax>
 
-          <Parallax classname={styles.about_content} x={[70, 30]} y={[30, 10]}>
+          <Parallax classname={styles.about_content} x={[70, 30]}>
             <div className={styles.about_content_text}>
               <span className={styles.emphasis_text}>
                 I am a frontend developer and visual designer who's obsessed
@@ -28,11 +28,7 @@ function About() {
               I love challenges and tackling new technologies.
             </div>
           </Parallax>
-          <Parallax
-            className={styles.portrait_container}
-            x={[-50, -30]}
-            y={[0, 30]}
-          >
+          <Parallax className={styles.portrait_container} x={[-50, -30]}>
             <img
               className={styles.portrait_image}
               src={Portrait}

@@ -10,9 +10,13 @@
 
 .about_header {
   margin-top: 20rem;
-  margin-left: 5rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
   position: absolute;
   z-index: 1;
+  h1 {
+    color: $color-primary-dark;
+  }
 }
 
 .about_text_container {
@@ -32,10 +36,10 @@
   flex-flow: column wrap;
   font-family: proxima-nova, sans-sarif;
   color: $color-black;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 700;
   width: 70rem;
-  margin-top: 20rem;
+  margin-top: 40rem;
 }
 
 .portrait_container {
@@ -43,7 +47,7 @@
   width: 90rem;
   height: 90rem;
   z-index: -1;
-  margin-top: 20rem;
+  margin-top: 25rem;
 }
 
 .emphasis_text {
