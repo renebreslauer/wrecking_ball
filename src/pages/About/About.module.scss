@@ -9,6 +9,8 @@
 }
 
 .about_header {
+  width: 100%;
+  text-align: center;
   margin-top: 20rem;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -29,6 +31,7 @@
   width: 100vw;
   clip-path: polygon(0 10vh, 100% 0, 100% 85vh, 0 100%);
   align-items: center;
+  position: absolute;
 }
 
 .about_content_text {
@@ -39,7 +42,7 @@
   font-size: 3rem;
   font-weight: 700;
   width: 70rem;
-  margin-top: 55%;
+  margin-top: 70%;
 }
 
 .portrait_container {
@@ -47,7 +50,7 @@
   width: 60rem;
   height: 60rem;
   z-index: -1;
-  margin-top: 20%;
+  top: 40%;
 }
 
 .emphasis_text {
@@ -76,5 +79,15 @@
     width: 100vw;
     clip-path: polygon(0 0vh, 100% 0, 100% 100vh, 0 100%);
     align-items: center;
+  }
+  .about_header {
+    font-size: 3rem;
+    flex-wrap: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .about_header {
+    font-size: 2rem;
+    flex-wrap: none;
   }
 }
