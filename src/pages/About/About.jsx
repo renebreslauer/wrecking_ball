@@ -29,8 +29,8 @@ function About() {
           </Parallax>
           <Parallax
             className={styles.portrait_container}
-            x={[-70, -30]}
-            y={[0, 80]}
+            x={[-50, -30]}
+            y={[0, 30]}
           >
             <img
               className={styles.portrait_image}
