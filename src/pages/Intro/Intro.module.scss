@@ -290,14 +290,15 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .alt_intro {
     background-image: url('../../components/assets/alternate_intro.svg');
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
-    margin-top: 50%;
+    margin-top: 40%;
     display: flex;
+
     animation: fadeIn 2s;
     transition: 2s ease-in-out;
   }
@@ -350,6 +351,9 @@
   .circle {
     display: none;
   }
+  .subtitle_svg {
+    display: none;
+  }
   .arrow {
     animation-delay: 2s;
   }
@@ -358,15 +362,6 @@
     height: 10px;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .circle {
-    display: none;
-  }
-  .subtitle_svg {
-    display: none;
   }
 }
 
