@@ -1,3 +1,7 @@
+.alt_intro {
+  display: none;
+}
+
 .intro_container {
   height: 100vh;
   left: 50%;
@@ -287,8 +291,67 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .alt_intro {
+    background-image: url('../../components/assets/alternate_intro.svg');
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50%;
+    display: flex;
+    animation: fadeIn 2s;
+    transition: 2s ease-in-out;
+  }
+
+  #intro_svg_letter_16 {
+    display: none;
+  }
+  #intro_svg_letter_15 {
+    display: none;
+  }
+  #intro_svg_letter_14 {
+    display: none;
+  }
+  #intro_svg_letter_13 {
+    display: none;
+  }
+  #intro_svg_letter_12 {
+    display: none;
+  }
+  #intro_svg_letter_11 {
+    display: none;
+  }
+  #intro_svg_letter_10 {
+    display: none;
+  }
+  #intro_svg_letter_9 {
+    display: none;
+  }
+  #intro_svg_letter_8 {
+    display: none;
+  }
+  #intro_svg_letter_7 {
+    display: none;
+  }
+  #intro_svg_letter_6 {
+    display: none;
+  }
+  #intro_svg_letter_5 {
+    display: none;
+  }
+  #intro_svg_letter_4 {
+    display: none;
+  }
+  #intro_svg_letter_3 {
+    display: none;
+  }
+  #intro_svg_letter_2 {
+    display: none;
+  }
   .circle {
     display: none;
+  }
+  .arrow {
+    animation-delay: 2s;
   }
   .arrow span {
     width: 10px;
@@ -311,5 +374,14 @@
   .circle {
     width: 90rem;
     height: 90rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100;
   }
 }
