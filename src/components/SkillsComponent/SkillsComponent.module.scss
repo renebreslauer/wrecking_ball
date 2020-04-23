@@ -32,28 +32,31 @@ $col-height: calc((#{$grid-height} / 4));
   transition: 1s;
   transition: 1s;
 
-  p {
+  &_overlay {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: $col-height;
+    width: $col-width;
+    background-color: rgba(0, 0, 0, 0.75);
     position: absolute;
     font-family: $font-primary;
     font-size: 3rem;
     font-weight: 700;
     transition: 0.5s ease-in-out;
     color: white;
-  }
-
-  &_overlay {
-    height: $col-height;
-    width: $col-width;
-    background-color: rgba(0, 0, 0, 0.75);
-    position: absolute;
-    transition: 0.5s;
+    z-index: 1;
+    &:hover {
+      opacity: 0;
+    }
   }
 
   &_static {
-    height: 100%;
-    width: 100%;
+    height: $col-height;
+    width: $col-width;
     background-size: cover;
     background-repeat: no-repeat;
+    position: absolute;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -62,8 +65,8 @@ $col-height: calc((#{$grid-height} / 4));
   }
 
   &_active {
-    height: 100%;
-    width: 100%;
+    height: $col-height;
+    width: $col-width;
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-transition: all 0.5s;
@@ -86,4 +89,12 @@ $col-height: calc((#{$grid-height} / 4));
     transform: scale(1.2);
     opacity: 100;
   }
+}
+
+#react_static {
+  background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/react_static.png');
+}
+
+#react_active {
+  background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/react.gif');
 }
