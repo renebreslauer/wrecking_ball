@@ -288,8 +288,7 @@
 
 @media only screen and (max-width: 600px) {
   .circle {
-    width: 2rem;
-    height: 2rem;
+    display: none;
   }
   .arrow span {
     width: 10px;
@@ -301,6 +300,9 @@
 
 @media only screen and (max-width: 800px) {
   .circle {
-    z-index: -1000;
+    display: none;
+  }
+  .subtitle_svg {
+    display: none;
   }
 }
