@@ -80,9 +80,18 @@
     clip-path: polygon(0 0vh, 100% 0, 100% 100vh, 0 100%);
     align-items: center;
   }
+  .about_content_text {
+    font-size: 2rem;
+  }
   .about_header {
-    font-size: 3rem;
-    flex-wrap: none;
+    h1 {
+      font-size: 5rem;
+    }
+  }
+  .portrait_container {
+    width: 30rem;
+    height: 30rem;
+    top: 60%;
   }
 }
 @media only screen and (max-width: 600px) {
