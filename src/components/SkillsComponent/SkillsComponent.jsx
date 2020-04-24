@@ -84,11 +84,11 @@ function SkillsComponent() {
           <div className={styles.col_1_of_4_overlay}>Animation</div>
           <div
             className={styles.col_1_of_4_static}
-            id={styles.react_static}
+            id={styles.animation_static}
           ></div>
           <div
             className={styles.col_1_of_4_active}
-            id={styles.react_active}
+            id={styles.animation_active}
           ></div>
         </div>
 

@@ -126,6 +126,7 @@ function Intro() {
             />
           </svg>
         </div>
+        <div className={styles.subtitle_cover}></div>
         <div
           className="intro-spring_container"
           onMouseMove={({ clientX: x, clientY: y }) => set({ xy: calc(x, y) })}

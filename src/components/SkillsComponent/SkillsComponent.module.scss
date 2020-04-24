@@ -98,3 +98,11 @@ $col-height: calc((#{$grid-height} / 4));
 #react_active {
   background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/react.gif');
 }
+
+#animation_static {
+  background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/animation.png');
+}
+
+#animation_active {
+  background: url('https://renewreckingball.s3.us-east-2.amazonaws.com/animation.mov');
+}
