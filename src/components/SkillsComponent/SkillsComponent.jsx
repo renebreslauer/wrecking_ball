@@ -8,15 +8,10 @@ function SkillsComponent() {
     <>
       <div className={styles.skills_grid}>
         <div className={styles.row}>
-          <div className={styles.col_1_of_2}>
-            <div className={styles.col_1_of_2_overlay}></div>
+          <div className={styles.col_1_of_2} id={styles.webdev}>
             <div
               className={styles.col_1_of_2_static}
               id={styles.react_static}
-            ></div>
-            <div
-              className={styles.col_1_of_2_active}
-              id={styles.react_active}
             ></div>
           </div>
           <div class={styles.col_1_of_2}>
@@ -45,8 +40,7 @@ function SkillsComponent() {
             </div>
           </div>
 
-          <div class={styles.col_1_of_2}>
-            <div className={styles.col_1_of_2_overlay}></div>
+          <div class={styles.col_1_of_2} id={styles.design}>
             <div
               className={styles.col_1_of_2_static}
               id={styles.react_static}

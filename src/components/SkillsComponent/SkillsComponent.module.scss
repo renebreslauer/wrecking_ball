@@ -30,7 +30,7 @@ $col-height: calc((#{$grid-width}/ 4));
   justify-content: center;
   align-items: center;
   width: $col-width;
-  height: $col-height;
+  height: 50vh;
   text-align: center;
   overflow: hidden;
   transition: 1s;
@@ -40,8 +40,9 @@ $col-height: calc((#{$grid-width}/ 4));
     justify-content: center;
     flex-direction: column;
     width: $col-width;
-    height: $col-height;
+    height: 50vh;
     text-align: left;
+    background-color: rgba(0, 0, 0, 0.5);
     &_wrapper {
       padding: 5%;
     }
@@ -56,29 +57,8 @@ $col-height: calc((#{$grid-width}/ 4));
     }
   }
 
-  &_overlay {
-    margin: 0;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    height: $col-height;
-    width: $col-width;
-    background-color: rgba(0, 0, 0, 0.75);
-    position: absolute;
-    font-family: $font-primary;
-    font-size: 3rem;
-    font-weight: 700;
-    transition: 0.5s ease-in-out;
-    color: white;
-    z-index: 1;
-    overflow: hidden;
-    cursor: pointer;
-    &:hover {
-      opacity: 0;
-    }
-  }
-
   &_static {
+    background-color: black;
     height: $col-height;
     width: $col-width;
     background-size: cover;
@@ -102,17 +82,27 @@ $col-height: calc((#{$grid-width}/ 4));
     overflow: hidden;
   }
 }
-
-#react_static {
-  background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/react_static.png');
+#webdev {
+  background-color: black;
 }
 
-#react_active {
-  background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/react.gif');
+#design {
+  background-color: black;
+}
+#react_static {
+  background-image: url('../assets/webdev.jpg');
+  opacity: 0.5;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 #animation_static {
   background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/animation.png');
+  opacity: 0;
 }
 
 #animation_active {
