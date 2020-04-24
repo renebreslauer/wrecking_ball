@@ -13,7 +13,7 @@ function About() {
             <Parallax className={styles.about_container_header} y={[-90, -20]}>
               <h1>Hi! I'm Rene.</h1>
             </Parallax>
-            <Parallax classname={styles.about_container_text} y={[0, -30]}>
+            <Parallax classname={styles.about_container_text} y={[20, -30]}>
               <div classname={styles.about_container_body_text}>
                 <p>
                   <span className={styles.emphasis_text}>
