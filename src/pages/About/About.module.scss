@@ -9,19 +9,20 @@
   &_wrapper {
     display: flex;
     flex-flow: column wrap;
+    justify-content: center;
     background-color: $color-white;
     background-image: url('../../components/assets/graph-paper.png');
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;
     clip-path: polygon(0 10vh, 100% 0, 100% 85vh, 0 100%);
-    align-items: center;
     position: absolute;
+    align-content: center;
   }
   &_header {
     width: 100%;
     text-align: center;
-    margin-top: 20rem;
+    top: 20vh;
     left: 50%;
     transform: translate(-50%, -50%);
     position: absolute;
@@ -32,21 +33,22 @@
   }
   &_body {
     display: flex;
-    align-items: center;
-    justify-content: center;
     width: 90vw;
-    margin-top: 40vh;
+    margin-top: 20vh;
+    left: 50%;
+    justify-content: center;
   }
 }
 
 .about_content_text {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column;
   font-family: proxima-nova, sans-sarif;
   color: $color-black;
   font-size: 3rem;
   font-weight: 700;
   width: 40vw;
+  height: 40vh;
 }
 
 .portrait_container {
@@ -105,5 +107,11 @@
 @media only screen and (min-width: 2000px) {
   .about_header {
     margin-top: 10%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .about_content_text {
+    font-size: 2.5rem;
   }
 }
