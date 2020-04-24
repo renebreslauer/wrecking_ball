@@ -10,10 +10,10 @@ function About() {
       <div className={styles.about_container}>
         <div className={styles.about_container_wrapper}>
           <div className={styles.about_container_content}>
-            <Parallax className={styles.about_container_header} y={[-90, 10]}>
+            <Parallax className={styles.about_container_header} y={[-90, -20]}>
               <h1>Hi! I'm Rene.</h1>
             </Parallax>
-            <Parallax classname={styles.about_container_text} y={[0, -40]}>
+            <Parallax classname={styles.about_container_text} y={[0, -30]}>
               <div classname={styles.about_container_body_text}>
                 <p>
                   <span className={styles.emphasis_text}>
@@ -23,7 +23,7 @@ function About() {
                   Especially passionate about interactive user interfaces, I'm
                   always exploring new ways to combine web development,
                   illustration, and animation to elevate the user
-                  experience.&nbsp;
+                  experience.&nbsp;<br></br>
                   <span className={styles.emphasis_text}>
                     If I don't know how to do something, I figure it out.&nbsp;
                   </span>
