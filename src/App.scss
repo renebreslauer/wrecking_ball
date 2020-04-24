@@ -28,7 +28,6 @@ body {
     ),
     url('https://renewreckingball.s3.us-east-2.amazonaws.com/black_lines_opt_single_color.jpg');
 
-  background-position: center;
   font-family: $font-body;
 }
 
@@ -166,7 +165,7 @@ h1 {
       rgba(0, 0, 0, 0) 100%
     ),
     url('https://renewreckingball.s3.us-east-2.amazonaws.com/black_lines_opt_single_color.jpg');
-  background-position: center;
+
   width: 100vw;
   height: 100vh;
   display: flex;
