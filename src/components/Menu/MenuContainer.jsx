@@ -36,28 +36,6 @@ class MenuContainer extends React.Component {
           handleMouseDown={this.handleMouseDown}
           menuVisibility={this.state.visible}
         />
-        <div>
-          <div>
-            <p>menu</p>
-            <ul>
-              <li>
-                <a href="#Intro">Home</a>
-              </li>
-              <li>
-                <a href="#About">About</a>
-              </li>
-              <li>
-                <a href="#Skills">Skills</a>
-              </li>
-              <li>
-                <a hre="#Experience">Experience</a>
-              </li>
-              <li>
-                <a href="#Contact">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
       </>
     )
   }

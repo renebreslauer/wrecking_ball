@@ -15,7 +15,6 @@ function Intro() {
   return (
     <>
       <div className={styles.intro_container}>
-        <img className={styles.logo} src={Logo} />
         <div className={styles.alt_intro}></div>
         <div className={styles.intro_svg}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1352.33 475.32">

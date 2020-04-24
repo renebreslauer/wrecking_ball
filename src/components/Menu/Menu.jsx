@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Menu.module.scss'
+import '../../App.scss'
 
 class Menu extends React.Component {
   render() {
@@ -11,12 +11,12 @@ class Menu extends React.Component {
 
     return (
       <div
-        id={styles.flyoutMenu}
+        id="flyoutMenu"
         onMouseDown={this.props.handleMouseDown}
-        className={styles.visibility}
+        className={visibility}
       >
         <h2>
-          <a href="#Home">Home</a>
+          <a href="#Intro">Home</a>
         </h2>
         <h2>
           <a href="#About">About</a>
