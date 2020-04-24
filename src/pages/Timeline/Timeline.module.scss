@@ -1,15 +1,12 @@
 .timeline_container {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+
   align-items: center;
   height: 100vh;
   width: 100vw;
   background-color: #504f50;
   overflow: hidden;
-}
-
-.timeline_svg {
-  height: 100rem;
 }
 
 .timeline_header {

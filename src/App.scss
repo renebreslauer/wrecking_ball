@@ -6,6 +6,7 @@ $color-black: #000;
 $color-white: #fff;
 
 $font-primary: proxima-nova, sans-sarif;
+$font-body: acumin-pro, sans-serif;
 
 *,
 *::after,
@@ -27,12 +28,15 @@ body {
       rgba(0, 0, 0, 0) 100%
     ),
     url('../src/components/assets/black_lines.png');
+  background-position: center;
+  font-family: $font-body;
 }
 
 h1 {
   font-size: 8rem;
   font-family: $font-primary;
   color: $color-white;
+  font-weight: 700;
 }
 
 //nav
@@ -163,6 +167,7 @@ h1 {
       rgba(0, 0, 0, 0) 100%
     ),
     url('../src/components/assets/black_lines.png');
+  background-position: center;
   width: 100vw;
   height: 100vh;
   display: flex;

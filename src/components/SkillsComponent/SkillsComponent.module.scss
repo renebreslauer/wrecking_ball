@@ -3,11 +3,14 @@
 //variables
 $grid-width: 100vw;
 $grid-height: 90vh;
-$col-width: calc((#{$grid-width}/ 4));
-$col-height: calc((#{$grid-height} / 4));
+$col-width: calc((#{$grid-width}/ 2));
+$col-height: calc((#{$grid-width}/ 4));
 
 .skills_grid {
-  margin-top: 10rem;
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 .row {
   display: flex;
@@ -20,7 +23,7 @@ $col-height: calc((#{$grid-height} / 4));
   }
 }
 
-.col_1_of_4 {
+.col_1_of_2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,9 +31,14 @@ $col-height: calc((#{$grid-height} / 4));
   height: $col-height;
   text-align: center;
   overflow: hidden;
-  cursor: pointer;
   transition: 1s;
   transition: 1s;
+
+  &_text {
+    width: $col-width;
+    height: $col-height;
+    background-color: black, 0.3;
+  }
 
   &_overlay {
     justify-content: center;
@@ -46,6 +54,8 @@ $col-height: calc((#{$grid-height} / 4));
     transition: 0.5s ease-in-out;
     color: white;
     z-index: 1;
+    overflow: hidden;
+    cursor: pointer;
     &:hover {
       opacity: 0;
     }
@@ -56,7 +66,7 @@ $col-height: calc((#{$grid-height} / 4));
     width: $col-width;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
+    overflow: hidden;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -o-transition: all 0.5s;
@@ -64,30 +74,15 @@ $col-height: calc((#{$grid-height} / 4));
     transition: 0.5s;
   }
 
-  &_active {
-    height: $col-height;
-    width: $col-width;
-    background-size: cover;
-    background-repeat: no-repeat;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    transition: 0.5s;
-    opacity: 0;
-  }
-
-  &:hover &static {
-    opacity: 0;
-  }
-  &:hover &_active,
-  &:focus &_active {
+  &:hover &_static,
+  &:focus &__static {
     -ms-transform: scale(1.2);
     -moz-transform: scale(1.2);
     -webkit-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
     opacity: 100;
+    overflow: hidden;
   }
 }
 

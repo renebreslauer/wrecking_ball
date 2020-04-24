@@ -6,59 +6,55 @@
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  overflow: hidden;
   &_wrapper {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
     width: 100vw;
-    clip-path: polygon(0 10vh, 100% 0, 100% 85vh, 0 100%);
     position: absolute;
     align-content: center;
+    border-top: 5rem solid black;
+  }
+  &_content {
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 40vw;
+    flex-flow: column-wrap;
+    z-index: 2;
+    font-size: 2rem;
+    right: 10vw;
+    top: 30vh;
   }
   &_header {
-    width: 100%;
-    text-align: center;
+    text-align: left;
     top: 20vh;
-    left: 15vw;
-    position: absolute;
     z-index: 1;
     h1 {
       color: $color-black;
+      font-size: 12rem;
     }
   }
-  &_body {
+
+  &_portrait {
+    position: absolute;
     display: flex;
-    width: 90vw;
-    justify-content: center;
+    justify-content: flex-start;
+    z-index: 0;
+    top: 10vh;
+    left: 0;
   }
 }
 
-.about_content_text {
-  display: flex;
-  flex-flow: column;
-  font-family: proxima-nova, sans-sarif;
-  color: $color-black;
-  font-size: 2.5rem;
-  font-weight: 300;
-  width: 40vw;
-  height: 30vh;
-  margin-top: 0vh;
-}
-
-.portrait_container {
-  position: absolute;
-  display: flex;
-  justify-content: flex-start;
-  z-index: -1;
-  top: 10vh;
-  left: 0;
-}
 .portrait_image {
   height: 80vh;
+  width: 60vw;
 }
 
 .emphasis_text {
@@ -88,14 +84,7 @@
     clip-path: polygon(0 0vh, 100% 0, 100% 100vh, 0 100%);
     align-items: center;
   }
-  .about_content_text {
-    font-size: 1.5rem;
 
-    margin-top: 20%;
-    margin-right: 80%;
-    width: 50%;
-    flex-flow: wrap;
-  }
   .about_header {
     margin-top: 10%;
     h1 {
@@ -105,7 +94,7 @@
   .portrait_container {
     height: 10rem;
     top: 50%;
-    margin-left: 50%;
+    margin-left: 10%;
   }
 }
 

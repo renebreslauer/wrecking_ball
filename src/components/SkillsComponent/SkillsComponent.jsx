@@ -8,106 +8,38 @@ function SkillsComponent() {
     <>
       <div className={styles.skills_grid}>
         <div className={styles.row}>
-          <div className={styles.col_1_of_4}>
-            <div className={styles.col_1_of_4_overlay}>React</div>
+          <div className={styles.col_1_of_2}>
+            <div className={styles.col_1_of_2_overlay}></div>
             <div
-              className={styles.col_1_of_4_static}
+              className={styles.col_1_of_2_static}
               id={styles.react_static}
             ></div>
             <div
-              className={styles.col_1_of_4_active}
+              className={styles.col_1_of_2_active}
               id={styles.react_active}
             ></div>
           </div>
-          <div class={styles.col_1_of_4}>
-            <div className={styles.col_1_of_4_overlay}>Javascript</div>
+          <div class={styles.col_1_of_2}>
+            <div className={styles.col_1_of_2_text}>Text goes here</div>
+          </div>
+        </div>
+
+        <div class={styles.row}>
+          <div class={styles.col_1_of_2}>
+            <div className={styles.col_1_of_2_text}>Text goes here</div>
+          </div>
+
+          <div class={styles.col_1_of_2}>
+            <div className={styles.col_1_of_2_overlay}>Photoshop</div>
             <div
-              className={styles.col_1_of_4_static}
+              className={styles.col_1_of_2_static}
               id={styles.react_static}
             ></div>
             <div
-              className={styles.col_1_of_4_active}
+              className={styles.col_1_of_2_active}
               id={styles.react_active}
             ></div>
           </div>
-
-          <div className={styles.col_1_of_4}>
-            <div className={styles.col_1_of_4_overlay}>CSS/SASS</div>
-            <div
-              className={styles.col_1_of_4_static}
-              id={styles.react_static}
-            ></div>
-            <div
-              className={styles.col_1_of_4_active}
-              id={styles.react_active}
-            ></div>
-          </div>
-          <div className={styles.col_1_of_4}>
-            <div className={styles.col_1_of_4_overlay}>SVG</div>
-            <div
-              className={styles.col_1_of_4_static}
-              id={styles.react_static}
-            ></div>
-            <div
-              className={styles.col_1_of_4_active}
-              id={styles.react_active}
-            ></div>
-          </div>
-        </div>
-      </div>
-      <div class={styles.row}>
-        <div class={styles.col_1_of_4}>
-          <div className={styles.col_1_of_4_overlay}>Illustrator</div>
-          <div
-            className={styles.col_1_of_4_static}
-            id={styles.react_static}
-          ></div>
-          <div
-            className={styles.col_1_of_4_active}
-            id={styles.react_active}
-          ></div>
-        </div>
-
-        <div class={styles.col_1_of_4}>
-          <div className={styles.col_1_of_4_overlay}>Photoshop</div>
-          <div
-            className={styles.col_1_of_4_static}
-            id={styles.react_static}
-          ></div>
-          <div
-            className={styles.col_1_of_4_active}
-            id={styles.react_active}
-          ></div>
-        </div>
-
-        <div class={styles.col_1_of_4}>
-          <div className={styles.col_1_of_4_overlay}>Animation</div>
-          <div
-            className={styles.col_1_of_4_static}
-            id={styles.animation_static}
-          ></div>
-          <div
-            className={styles.col_1_of_4_active}
-            id={styles.animation_active}
-          ></div>
-        </div>
-
-        <div class={styles.col_1_of_4}>
-          <p>Col 4 of 4</p>
-        </div>
-      </div>
-      <div class={styles.row}>
-        <div class={styles.col_1_of_4}>
-          <p>Col 1 of 4</p>
-        </div>
-        <div class={styles.col_1_of_4}>
-          <p>Col 2 of 4</p>
-        </div>
-        <div class={styles.col_1_of_4}>
-          <p>Col 3 of 4</p>
-        </div>
-        <div class={styles.col_1_of_4}>
-          <p>Col 4 of 4</p>
         </div>
       </div>
     </>
