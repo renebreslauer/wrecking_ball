@@ -9,10 +9,10 @@ function About() {
     <ScrollableAnchor id={'About'}>
       <div className={styles.about_container}>
         <div className={styles.about_container_wrapper}>
-          <Parallax className={styles.about_container_header} y={[-50, 10]}>
-            <h1>Hi! I'm Rene.</h1>
-          </Parallax>
           <div className={styles.about_container_body}>
+            <Parallax className={styles.about_container_header} y={[-90, 10]}>
+              <h1>Hi! I'm Rene.</h1>
+            </Parallax>
             <Parallax classname={styles.about_content} x={[70, 40]}>
               <div className={styles.about_content_text}>
                 <span className={styles.emphasis_text}>
@@ -28,13 +28,13 @@ function About() {
                 I love challenges and tackling new technologies.
               </div>
             </Parallax>
-            <Parallax className={styles.portrait_container} x={[-70, -30]}>
+            <div className={styles.portrait_container}>
               <img
                 className={styles.portrait_image}
                 src={Portrait}
                 alt="portrait"
               />
-            </Parallax>
+            </div>
           </div>
         </div>
         <div className={styles.background_overflow}></div>

@@ -4,7 +4,6 @@ import About from '../src/pages/About/About'
 import Timeline from '../src/pages/Timeline/Timeline'
 import Contact from '../src/pages/Contact/Contact'
 import MenuContainer from './components/Menu/MenuContainer'
-import MenuButton from './components/Menu/MenuButton'
 import Logo from './components/assets/logo.svg'
 import './App.scss'
 
