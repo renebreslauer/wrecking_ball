@@ -21,6 +21,12 @@ html {
 
 body {
   background-color: $color-primary;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 1) 18%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('../src/components/assets/black_lines.png');
 }
 
 h1 {
@@ -53,7 +59,7 @@ h1 {
   transform: translate3d(0vw, 0, 0);
   overflow: hidden;
   h2 {
-    animation: slideInFromLeft 0.7s ease-in-out;
+    animation: slideInFromLeft 1s;
   }
 }
 
@@ -108,11 +114,70 @@ h1 {
   font-family: Proxima-nova, sans-serif;
 }
 
+.logo_background {
+  opacity: 0.7;
+  fill: #d29229;
+  transition: 0.3s ease-in-out;
+  &:active {
+    opacity: 1;
+  }
+}
+.st1 {
+  fill: #383938;
+}
+.st2 {
+  fill: #575757;
+}
+.st3 {
+  fill: #918f8f;
+}
+.st4 {
+  fill: #3a3b3a;
+}
+.st5 {
+  fill: #616060;
+}
+
 @keyframes slideInFromLeft {
   0% {
     transform: translateX(-100%);
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-200%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.loading {
+  background-color: $color-primary;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5) 0.1%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url('../src/components/assets/black_lines.png');
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  &_logo {
+    animation: spin 10s;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
