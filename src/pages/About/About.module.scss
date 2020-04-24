@@ -19,7 +19,8 @@
     width: 100vw;
     position: absolute;
     align-content: center;
-    border-top: 5rem solid black;
+    border-top: 5rem solid $color-black;
+    border-bottom: 5rem solid $color-primary-dark;
   }
   &_content {
     position: absolute;
@@ -30,6 +31,7 @@
     flex-flow: column-wrap;
     z-index: 2;
     font-size: 2rem;
+    font-weight: 500;
     right: 10vw;
     top: 30vh;
   }
@@ -51,6 +53,9 @@
     top: 10vh;
     left: 0;
   }
+  &_text {
+    line-height: 3.5rem;
+  }
 }
 
 .portrait_image {
@@ -60,6 +65,7 @@
 
 .emphasis_text {
   color: $color-primary-dark;
+  font-weight: 500;
 }
 
 .background_overflow {

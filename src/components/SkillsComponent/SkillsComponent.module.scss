@@ -24,6 +24,7 @@ $col-height: calc((#{$grid-width}/ 4));
 }
 
 .col_1_of_2 {
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -33,11 +34,25 @@ $col-height: calc((#{$grid-width}/ 4));
   overflow: hidden;
   transition: 1s;
   transition: 1s;
-
   &_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: $col-width;
     height: $col-height;
-    background-color: black, 0.3;
+    text-align: left;
+    &_wrapper {
+      margin: 5%;
+    }
+    h3 {
+      color: $color-primary;
+      font-size: 3rem;
+      line-height: 10rem;
+    }
+    p {
+      color: $color-white;
+      font-size: 2rem;
+    }
   }
 
   &_overlay {

@@ -20,17 +20,33 @@ function SkillsComponent() {
             ></div>
           </div>
           <div class={styles.col_1_of_2}>
-            <div className={styles.col_1_of_2_text}>Text goes here</div>
+            <div className={styles.col_1_of_2_text}>
+              <div className={styles.col_1_of_2_text_wrapper}>
+                <h3>WEB DEVELOPMENT</h3>
+                <p>
+                  I can take a website from idea to fruition, from mockup to
+                  code.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
 
         <div class={styles.row}>
           <div class={styles.col_1_of_2}>
-            <div className={styles.col_1_of_2_text}>Text goes here</div>
+            <div className={styles.col_1_of_2_text}>
+              <div className={styles.col_1_of_2_text_wrapper}>
+                <h3>DESIGN AND CREATIVE</h3>
+                <p>
+                  I can take a website from idea to fruition, from mockup to
+                  code.
+                </p>
+              </div>
+            </div>
           </div>
 
           <div class={styles.col_1_of_2}>
-            <div className={styles.col_1_of_2_overlay}>Photoshop</div>
+            <div className={styles.col_1_of_2_overlay}></div>
             <div
               className={styles.col_1_of_2_static}
               id={styles.react_static}
