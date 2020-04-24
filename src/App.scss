@@ -39,7 +39,7 @@ h1 {
   position: fixed;
   top: 0;
   left: 0;
-  transition: transform 0.3s cubic-bezier(0, 0.52, 0, 1);
+  transition: transform 0.7s cubic-bezier(0, 0.52, 0, 1);
   overflow: scroll;
   z-index: 9;
 }
@@ -58,11 +58,14 @@ h1 {
   margin-left: 15px;
   text-decoration: none;
   z-index: 100;
-  font-size: 4rem;
+  font-size: 5em;
+  font-weight: 1000;
+  text-align: center;
 }
 
 #flyoutMenu h2 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: $color-primary;
 }
 
 #MenuButton {
@@ -75,6 +78,7 @@ h1 {
   border: none;
   position: fixed;
   cursor: pointer;
+  transition: 2s ease-in-out;
 }
 
 #MenuButton:focus {
@@ -83,6 +87,17 @@ h1 {
 
 #MenuButton:hover {
   animation: Spin 3s;
+  transition: 2s ease-in-out;
+}
+
+.menu_container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: 30vh;
+  flex-direction: column;
+  font-family: Proxima-nova, sans-serif;
 }
 
 @keyframes Spin {
