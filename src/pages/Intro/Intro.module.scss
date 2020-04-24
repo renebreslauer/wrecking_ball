@@ -1,5 +1,16 @@
 @import '../../App.scss';
 
+.logo {
+  width: 15rem;
+  right: 2rem;
+  position: fixed;
+  top: 2rem;
+  z-index: 100;
+  animation: fadeIn 2s;
+  animation-delay: 7s;
+  animation-fill-mode: backwards;
+  cursor: pointer;
+}
 .alt_intro {
   display: none;
 }
@@ -196,7 +207,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   animation: fadeIn 2s;
-  animation-delay: 6s;
+  animation-delay: 7s;
   animation-fill-mode: backwards;
 }
 

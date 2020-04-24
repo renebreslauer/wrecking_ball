@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Intro.module.scss'
 import { useSpring, animated } from 'react-spring'
+import Logo from '../../components/assets/logo.svg'
 
 const calc = (x, y) => [x - window.innerWidth / 2, y - window.innerHeight / 2]
 const trans4 = (x, y) => `translate3d(${x / 3.5}px,${y / 3.5}px,0)`
@@ -14,6 +15,7 @@ function Intro() {
   return (
     <>
       <div className={styles.intro_container}>
+        <img className={styles.logo} src={Logo} />
         <div className={styles.alt_intro}></div>
         <div className={styles.intro_svg}>
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1352.33 475.32">

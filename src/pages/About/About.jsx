@@ -21,7 +21,7 @@ function About() {
                 </span>
                 Especially passionate about interactive user interfaces, I'm
                 always exploring new ways to combine web development,
-                illustration, and animation.
+                illustration, and animation to elevate the user experience.
                 <span className={styles.emphasis_text}>
                   If I don't know how to do something, I figure it out.
                 </span>
