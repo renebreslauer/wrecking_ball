@@ -41,7 +41,8 @@ h1 {
   left: 0;
   transition: transform 0.7s cubic-bezier(0, 0.52, 0, 1);
   overflow: scroll;
-  z-index: 9;
+  z-index: 6;
+  transition: 0.5s ease-in-out;
 }
 
 #flyoutMenu.hide {
@@ -51,6 +52,9 @@ h1 {
 #flyoutMenu.show {
   transform: translate3d(0vw, 0, 0);
   overflow: hidden;
+  h2 {
+    animation: slideInFromLeft 0.7s ease-in-out;
+  }
 }
 
 #flyoutMenu h2 a {
@@ -61,6 +65,7 @@ h1 {
   font-size: 5em;
   font-weight: 1000;
   text-align: center;
+  z-index: 10;
 }
 
 #flyoutMenu h2 a:hover {
@@ -88,6 +93,9 @@ h1 {
 #MenuButton:hover {
   animation: Spin 3s;
   transition: 2s ease-in-out;
+  .logo_background {
+    opacity: 100;
+  }
 }
 
 .menu_container {
@@ -100,11 +108,11 @@ h1 {
   font-family: Proxima-nova, sans-serif;
 }
 
-@keyframes Spin {
+@keyframes slideInFromLeft {
   0% {
-    transform: rotate(0deg);
+    transform: translateX(-100%);
   }
   100% {
-    transform: rotate(50deg);
+    transform: translateX(0);
   }
 }
