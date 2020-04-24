@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-image: url('../../components/assets/graph_paper_plain.png');
+    background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/graph_paper_plain.png');
     background-color: white;
     background-repeat: no-repeat;
     background-size: cover;
@@ -78,7 +78,7 @@
     flex-flow: column wrap;
     flex-direction: column;
     background-color: $color-white;
-    background-image: url('../../components/assets/graph-paper.png');
+    background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/graph_paper_plain.png');
     background-repeat: no-repeat;
     height: 100vh;
     width: 100vw;

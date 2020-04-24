@@ -27,7 +27,7 @@ body {
       rgba(0, 0, 0, 1) 18%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url('../src/components/assets/black_lines.png');
+    url('https://renewreckingball.s3.us-east-2.amazonaws.com/black_lines.png');
   background-position: center;
   font-family: $font-body;
 }
@@ -166,7 +166,7 @@ h1 {
       rgba(0, 0, 0, 0.5) 0.1%,
       rgba(0, 0, 0, 0) 100%
     ),
-    url('../src/components/assets/black_lines.png');
+    url('https://renewreckingball.s3.us-east-2.amazonaws.com/black_lines.png');
   background-position: center;
   width: 100vw;
   height: 100vh;
