@@ -27,7 +27,11 @@ function About() {
                   <span className={styles.emphasis_text}>
                     If I don't know how to do something, I figure it out.&nbsp;
                   </span>
-                  I love challenges and tackling new technologies.
+                  I love challenges and tackling new technologies.<br></br>
+                  <br></br>
+                  As an aspiring unicorn ( and Adobe fangirl ) Wrecking Ball is
+                  a place where I can see myself learning, growing, and thriving
+                  for a long time.
                 </p>
               </div>
             </Parallax>

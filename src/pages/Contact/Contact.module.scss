@@ -1,13 +1,28 @@
+@import '../../App.scss';
+
 .contact_container {
-  background-color: black;
+  background-color: $color-primary-dark;
   height: 50vh;
   width: 100vw;
-  clip-path: polygon(0 15vh, 100% 0, 100% 100%, 0 100%);
-  &_content {
-    font-family: Oswald, sans-serif;
-    padding-top: 15rem;
-    padding-left: 20rem;
-    color: white;
-    font-size: 2rem;
+  font-family: $font-body;
+  padding-top: 10%;
+  color: black;
+  font-size: 2rem;
+  &_wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color-white;
+  }
+  &_header {
+    text-align: center;
+  }
+  &_body {
+    display: flex;
+    flex-direction: columns;
+    justify-content: space-around;
   }
 }

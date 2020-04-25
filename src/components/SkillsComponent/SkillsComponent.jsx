@@ -17,10 +17,15 @@ function SkillsComponent() {
           <div class={styles.col_1_of_2}>
             <div className={styles.col_1_of_2_text}>
               <div className={styles.col_1_of_2_text_wrapper}>
-                <h3>WEB DEVELOPMENT</h3>
+                <h2>WEB DEVELOPMENT</h2>
+                <h3>FROM IDEA TO MOCKUP TO CODE</h3>
                 <p>
-                  I can take a website from idea to fruition, from mockup to
-                  code.
+                  I design creative, fully functional apps using predominantly
+                  React and pure CSS/SASS. I care about every detail of the user
+                  experience, from accessibility and responsiveness to the
+                  unexpected animations. I am equally comitted to writing clean,
+                  reusable code, and designing optimized graphics for an overall
+                  seamless experience.
                 </p>
               </div>
             </div>
@@ -31,11 +36,9 @@ function SkillsComponent() {
           <div class={styles.col_1_of_2}>
             <div className={styles.col_1_of_2_text}>
               <div className={styles.col_1_of_2_text_wrapper}>
-                <h3>DESIGN AND CREATIVE</h3>
-                <p>
-                  I can take a website from idea to fruition, from mockup to
-                  code.
-                </p>
+                <h2>DESIGN AND CREATIVE</h2>
+                <h3>WEB ASSETS, ICONS, AND ANIMATIONS</h3>
+                <p> </p>
               </div>
             </div>
           </div>

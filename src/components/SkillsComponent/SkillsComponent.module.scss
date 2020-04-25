@@ -11,7 +11,7 @@ $col-height: calc((#{$grid-width}/ 4));
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-bottom: 1rem solid black;
+  border-bottom: 0.5rem solid black;
 }
 .row {
   display: flex;

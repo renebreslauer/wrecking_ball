@@ -10,7 +10,7 @@ function Timeline() {
       <ScrollableAnchor id={'Timeline'}>
         <div className={styles.timeline_container}>
           <Parallax className={styles.timeline_header} y={[50, 90]}>
-            <h1>What Can I Do?</h1>
+            <h1>What I'm Into</h1>
           </Parallax>
           <SkillsComponent />
         </div>

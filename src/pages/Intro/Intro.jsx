@@ -20,20 +20,22 @@ function Intro() {
             <path
               className={styles.intro_svg_letter}
               id={styles.intro_svg_letter_16}
-              d="M90.49,58.71l-14.33,63H40.83L9,10.55H46.66L61,78.54l16.83-68h25.33l16.83,68,14.17-68H172L140.15,121.7H104.82Z"
+              d="M90.49,58.71l-14.33,63H40.83L9,10.55H46.66L61,78.54l16.83-68h25.33l16.83,68,14.17-68H172L140.15,121.7H104.82z"
               transform="translate(-7.67 -9.55)"
             />
             <path
               className={styles.intro_svg_letter}
               id={styles.intro_svg_letter_15}
-              d="M252.47,79.2H212.64v42.5H179V10.55h33.66V49.87h39.83V10.55h33.66V121.7H252.47Z"
+              d="M252.47,79.2H212.64v42.5H179V10.55h33.66V49.87h39.83V10.55h33.66V121.7H252.47z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
             <path
               className={styles.intro_svg_letter}
               id={styles.intro_svg_letter_14}
-              d="M333.79,77.54l-41.66-67H330L350.62,48,371,10.55h37.83l-41.32,67V121.7H333.79Z"
+              d="M333.79,77.54l-41.66-67H330L350.62,48,371,10.55h37.83l-41.32,67V121.7H333.79z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
             <path
               className={styles.subtitle_svg}
@@ -75,36 +77,42 @@ function Intro() {
               id={styles.intro_svg_letter_10}
               d="M385.29,426.38c0-34.33,26.33-57.49,60.32-57.49,30,0,44.66,17,51.33,32.32l-29,13.5a23.8,23.8,0,0,0-22.33-16.16c-15.33,0-26.16,12.33-26.16,27.83s10.83,27.83,26.16,27.83A23.8,23.8,0,0,0,467.94,438l29,13.33c-6.5,14.83-21.33,32.5-51.33,32.5C411.62,483.87,385.29,460.54,385.29,426.38Z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
             <path
               className={styles.intro_svg_letter}
               id={styles.intro_svg_letter_9}
               d="M547.27,442.71,541.1,451v30.83H507.44V370.72H541.1v41.66l29.16-41.66h41.16l-42,51.66,43.83,59.49h-41Z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
             <path
               className={styles.intro_svg_letter}
               id={styles.intro_svg_letter_8}
               d="M619.26,370.72h33.66V481.87H619.26Z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
             <path
               className={styles.intro_svg_letter}
               id={styles.intro_svg_letter_7}
               d="M704.58,422.21v59.66H670.92V370.72h34.66l38.66,56v-56H777.9V481.87H745.57Z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
             <path
               className={styles.intro_svg_letter}
               id={styles.intro_svg_letter_6}
               d="M851.06,368.89c25.83,0,41.16,13,48.83,27.33l-28.33,14.49a23,23,0,0,0-20.5-12.16c-16.16,0-27,12.33-27,27.83s10.83,27.83,27,27.83c7.17,0,13.83-1.84,18.17-5v-4.84h-21.5V416.71h54.16v44.66c-12.33,13.67-29,22.5-50.83,22.5-33.66,0-61.15-22-61.15-57.49C789.91,390.72,817.4,368.89,851.06,368.89Z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
             <path
               className={styles.intro_svg_letter}
               id={styles.intro_svg_letter_5}
               d="M959.38,370.72h67.49c23,0,33,15.33,33,28.33,0,13.83-8.17,23.16-19,25.49,12,1.84,21.17,12.83,21.17,27.17,0,15.49-10.5,30.16-32.83,30.16H959.38ZM1019,412.05a7,7,0,0,0,6.67-7.17,6.83,6.83,0,0,0-6.67-6.83h-26v14Zm1,42.49c4.83,0,7.83-3.33,7.83-7.5a7.58,7.58,0,0,0-7.83-7.67h-27v15.17Z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
             <path
               className={styles.intro_svg_letter}
@@ -117,12 +125,14 @@ function Intro() {
               id={styles.intro_svg_letter_3}
               d="M1193.86,370.72h33.66v81.82h42.16v29.33h-75.82Z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
             <path
               className={styles.intro_svg_letter}
               id={styles.intro_svg_letter_2}
               d="M1283.18,370.72h33.66v81.82H1359v29.33h-75.82Z"
               transform="translate(-7.67 -9.55)"
+              stroke-linecap="square"
             />
           </svg>
         </div>
