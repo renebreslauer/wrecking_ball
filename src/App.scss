@@ -23,11 +23,11 @@ html {
 body {
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 1) 30%,
+      rgba(0, 0, 0, 0.5) 1%,
       rgba(0, 0, 0, 0) 100%
     ),
     url('https://renewreckingball.s3.us-east-2.amazonaws.com/black_lines_opt_single_color.jpg');
-
+  background-attachment: fixed;
   font-family: $font-body;
 }
 
@@ -160,7 +160,7 @@ h1 {
 .loading {
   background-image: linear-gradient(
       0deg,
-      rgba(0, 0, 0, 0.5) 0.1%,
+      rgba(0, 0, 0, 0.5) 1%,
       rgba(0, 0, 0, 0) 100%
     ),
     url('https://renewreckingball.s3.us-east-2.amazonaws.com/black_lines_opt_single_color.jpg');
