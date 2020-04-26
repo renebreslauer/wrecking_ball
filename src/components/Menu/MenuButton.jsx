@@ -1,6 +1,5 @@
 import React from 'react'
 import '../../App.scss'
-import Logo from '../assets/logo.svg'
 
 class MenuButton extends React.Component {
   render() {

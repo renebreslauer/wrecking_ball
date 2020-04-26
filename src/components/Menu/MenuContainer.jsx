@@ -1,7 +1,6 @@
 import React from 'react'
 import MenuButton from './MenuButton'
 import Menu from './Menu'
-import styles from './Menu.module.scss'
 
 class MenuContainer extends React.Component {
   constructor(props, context) {
@@ -19,7 +18,6 @@ class MenuContainer extends React.Component {
     this.toggleMenu()
 
     console.log('clicked')
-    e.stopPropagation()
   }
 
   toggleMenu() {
