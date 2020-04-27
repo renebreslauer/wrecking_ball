@@ -105,3 +105,9 @@ $col-height: calc((#{$grid-width}/ 4));
     opacity: 100;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .gridbox_content p {
+    font-size: 1.2rem;
+  }
+}
