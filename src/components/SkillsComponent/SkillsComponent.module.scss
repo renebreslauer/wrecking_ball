@@ -11,7 +11,6 @@ $col-height: calc((#{$grid-width}/ 4));
   display: flex;
   justify-content: center;
   flex-direction: column;
-  border-bottom: 0.5rem solid black;
 }
 .row {
   display: flex;
@@ -24,7 +23,7 @@ $col-height: calc((#{$grid-width}/ 4));
   }
 }
 
-.col_1_of_2 {
+.gridbox {
   margin: 0;
   padding: 0;
   display: flex;
@@ -34,9 +33,11 @@ $col-height: calc((#{$grid-width}/ 4));
   height: 50vh;
   text-align: center;
   overflow: hidden;
-  transition: 1s;
-  transition: 1s;
-  &_text {
+  &_background {
+    background-color: black;
+    opacity: 1;
+  }
+  &_content {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -44,68 +45,63 @@ $col-height: calc((#{$grid-width}/ 4));
     height: 50vh;
     text-align: left;
     background-color: rgba(0, 0, 0, 0.5);
-    &_wrapper {
-      padding: 5%;
+    &_image {
+      width: $col-width;
+      height: 50vh;
+      transform: scale(0.9);
     }
-    h3 {
-      color: $color-primary;
-      font-size: 3rem;
-      line-height: 10rem;
+    &_body {
+      padding: 5%;
     }
     p {
       color: $color-white;
-      font-size: 2rem;
     }
-  }
-
-  &_static {
-    background-color: black;
-    height: $col-height;
-    width: $col-width;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    transition: 0.5s;
-  }
-
-  &:hover &_static,
-  &:focus &__static {
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    opacity: 100;
-    overflow: hidden;
   }
 }
 #webdev {
-  background-color: black;
+  background-image: url('../assets/webdev.jpg');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  transition: 0.5s;
+  z-index: 100;
+  &:hover {
+    opacity: 1;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
 }
-
 #design {
   background-color: black;
-}
-#react_static {
   background-image: url('../assets/webdev.jpg');
   opacity: 0.5;
   background-position: center;
   background-size: contain;
+  background-repeat: no-repeat;
   cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  transition: 0.5s;
   &:hover {
     opacity: 1;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 100;
   }
-}
-
-#animation_static {
-  background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/animation.png');
-  opacity: 0;
-}
-
-#animation_active {
-  background: url('https://renewreckingball.s3.us-east-2.amazonaws.com/animation.mov');
 }

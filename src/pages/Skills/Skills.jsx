@@ -1,18 +1,18 @@
 import React from 'react'
-import styles from '../Timeline/Timeline.module.scss'
+import styles from '../Skills/Skills.module.scss'
 import ScrollableAnchor from 'react-scrollable-anchor'
-import SkillsComponent from '../../components/SkillsComponent/SkillsComponent'
+import SkillsGrid from '../../components/SkillsComponent/SkillsGrid'
 import { Parallax } from 'react-scroll-parallax'
 
-function Timeline() {
+const Timeline = () => {
   return (
     <>
-      <ScrollableAnchor id={'Timeline'}>
+      <ScrollableAnchor id={'Skills'}>
         <div className={styles.timeline_container}>
-          <Parallax className={styles.timeline_header} y={[50, 90]}>
+          <Parallax className={styles.timeline_header} y={[20, 120]}>
             <h1>What I'm Into</h1>
           </Parallax>
-          <SkillsComponent />
+          <SkillsGrid />
         </div>
       </ScrollableAnchor>
     </>
