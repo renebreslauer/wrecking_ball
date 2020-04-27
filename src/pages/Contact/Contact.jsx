@@ -1,7 +1,11 @@
 import React from 'react'
 import styles from '../Contact/Contact.module.scss'
 import ScrollableAnchor from 'react-scrollable-anchor'
-import { Parallax } from 'react-scroll-parallax'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+library.add(fab)
 
 function Contact() {
   return (
@@ -17,14 +21,87 @@ function Contact() {
           <div className={styles.contact_container_info}>
             <h3>Rene Breslauer</h3>
             <p>(954) 609-2597</p>
-            <p>Renebreslauer@me.com</p>
+            <p>
+              <a href={'mailto:renebreslauer@me.com'}>Renebreslauer@me.com</a>
+            </p>
             <p>Download My Resume</p>
-            <p>Source Code</p>
+            <p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/renebreslauer/wrecking_ball"
+              >
+                Source Code
+              </a>
+            </p>
           </div>
           <div className={styles.contact_container_links}>
-            <p>Github</p>
-            <p>LinkedIn</p>
-            <p>Twitter</p>
+            <p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://github.com/renebreslauer"
+              >
+                <FontAwesomeIcon
+                  icon={['fab', 'github']}
+                  className={styles.contact_container_links_icon}
+                />
+                Github
+              </a>
+            </p>
+            <p>
+              {' '}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://linkedin.com/in/renebreslauer"
+              >
+                <FontAwesomeIcon
+                  icon={['fab', 'linkedin-in']}
+                  className={styles.contact_container_links_icon}
+                />
+                LinkedIn
+              </a>
+            </p>
+            <p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.twitter.com/renebreslauer/"
+              >
+                <FontAwesomeIcon
+                  icon={['fab', 'twitter']}
+                  className={styles.contact_container_links_icon}
+                />
+                Twitter
+              </a>
+            </p>
+            <p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.behance.net/renebreslauer"
+              >
+                <FontAwesomeIcon
+                  icon={['fab', 'behance']}
+                  className={styles.contact_container_links_icon}
+                />
+                Behance
+              </a>
+            </p>
+            <p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://dribbble.com/renebreslauer"
+              >
+                <FontAwesomeIcon
+                  icon={['fab', 'dribbble']}
+                  className={styles.contact_container_links_icon}
+                />
+                Dribbble
+              </a>
+            </p>
           </div>
         </div>
       </div>
