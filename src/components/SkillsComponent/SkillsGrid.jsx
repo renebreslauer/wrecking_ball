@@ -27,7 +27,7 @@ const SkillsGrid = (props) => {
         <ImageComponent id={styles.design} />
       </div>
       <div className={styles.row}>
-        <ImageComponent id={styles.webdev} />
+        <ImageComponent id={styles.management} />
         <TextComponent
           title="Project Management"
           subtitle="Teamwork and Agile Methodologies"

@@ -105,7 +105,30 @@ $col-height: calc((#{$grid-width}/ 4));
     opacity: 100;
   }
 }
-
+#management {
+  background-color: black;
+  background-image: url('https://renewreckingball.s3.us-east-2.amazonaws.com/project_management.jpg');
+  opacity: 0.5;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  transition: 0.5s;
+  &:hover {
+    opacity: 1;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    opacity: 100;
+  }
+}
 @media only screen and (max-width: 800px) {
   .gridbox_content p {
     font-size: 1.2rem;

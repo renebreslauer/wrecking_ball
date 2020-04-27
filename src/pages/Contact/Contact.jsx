@@ -24,7 +24,15 @@ function Contact() {
             <p>
               <a href={'mailto:renebreslauer@me.com'}>Renebreslauer@me.com</a>
             </p>
-            <p>Download My Resume</p>
+            <p>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://renewreckingball.s3.us-east-2.amazonaws.com/Rene_Breslauer_Resume.pdf"
+              >
+                View My Resume
+              </a>
+            </p>
             <p>
               <a
                 target="_blank"
