@@ -22,7 +22,7 @@ const SkillsGrid = (props) => {
         <TextComponent
           title="Design and Creative"
           subtitle="Web Assets, Icons, and Animations"
-          text="A unique and innovative application calls for equally original graphics. I know my way around Adobe Illustrator, Photoshop, and After Effects, and I hand draw using Procreate on the iPad Pro. In personal projects, I often choose to design my own icons, illustrations, and graphics for a cohesive and fully customized design. While I'm always tinkering with SVG's, I put just as much attention into making sure graphics are optimized for a fast and seamless experience."
+          text="A unique and innovative application calls for equally original graphics. I know my way around Adobe Illustrator, Photoshop, and After Effects, and I hand draw using Procreate on the iPad Pro. In personal and freelance projects, I often choose to design my own icons, illustrations, and graphics for a cohesive and fully customized design. While I'm always tinkering with SVG's, I put just as much attention into making sure graphics are optimized for a fast and seamless experience."
         />
         <ImageComponent id={styles.design} />
       </div>
