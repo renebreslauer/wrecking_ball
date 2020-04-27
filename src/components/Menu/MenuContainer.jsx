@@ -16,8 +16,6 @@ class MenuContainer extends React.Component {
 
   handleMouseDown(e) {
     this.toggleMenu()
-
-    console.log('clicked')
   }
 
   toggleMenu() {

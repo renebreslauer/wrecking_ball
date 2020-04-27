@@ -4,7 +4,6 @@ import ImageComponent from './ImageComponent'
 import styles from './SkillsComponent.module.scss'
 
 const SkillsGrid = (props) => {
-  console.log(props)
   return (
     <div className={styles.skills_grid}>
       <div className={styles.row}>

@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './SkillsComponent.module.scss'
 
 const TextComponent = (props) => {
-  console.log(props)
   return (
     <div className={styles.gridbox}>
       <div className={styles.gridbox_content}>

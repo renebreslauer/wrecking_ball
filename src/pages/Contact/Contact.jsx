@@ -14,7 +14,7 @@ function Contact() {
         <div className={styles.contact_container_header}>
           <h2>
             Still not convinced?&nbsp;&nbsp;
-            <a href="">Let's try that again</a>
+            <a href="#Home">Let's try that again</a>
           </h2>
         </div>
         <div className={styles.contact_container_body}>

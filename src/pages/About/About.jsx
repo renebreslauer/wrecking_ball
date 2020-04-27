@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../About/About.module.scss'
-import Portrait from '../../components/assets/portrait.svg'
+import Portrait from '../../assets/portrait.svg'
 import ScrollableAnchor from 'react-scrollable-anchor'
 import { Parallax } from 'react-scroll-parallax'
 

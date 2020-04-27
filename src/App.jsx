@@ -4,7 +4,7 @@ import About from '../src/pages/About/About'
 import Skills from './pages/Skills/Skills'
 import Contact from '../src/pages/Contact/Contact'
 import MenuContainer from './components/Menu/MenuContainer'
-import Logo from './components/assets/logo.svg'
+import Logo from './assets/logo.svg'
 import './App.scss'
 
 class App extends React.Component {
@@ -24,10 +24,10 @@ class App extends React.Component {
   }
   componentDidMount() {
     setTimeout(
-      function() {
+      function () {
         this.setState({ isLoading: false })
       }.bind(this),
-      3000
+      3000,
     )
   }
 
@@ -38,7 +38,7 @@ class App extends React.Component {
       <div>
         {isLoading ? (
           <div className="loading">
-            <img src={Logo} className="loading_logo" />
+            <img src={Logo} className="loading_logo" alt="logo" />
           </div>
         ) : (
           <div className="App">
