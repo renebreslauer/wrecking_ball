@@ -89,18 +89,22 @@
 }
 
 @media only screen and (max-width: 1000px) {
+  .about_container_content {
+    margin-top: 20vh;
+  }
   .about_container_header {
     display: none;
     &_media {
       display: flex;
-      .about_container_text_body {
-        display: none;
-        &_media {
-          display: flex;
-        }
-      }
     }
   }
+  .about_container_text_body {
+    display: none;
+    &_media {
+      display: flex;
+    }
+  }
+
   #about_text {
     display: none;
   }
