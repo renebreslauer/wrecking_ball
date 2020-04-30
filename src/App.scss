@@ -133,8 +133,8 @@ a {
   flex-direction: column;
   font-family: Proxima-nova, sans-serif;
 }
-#logo_svg {
-  object-fit: contain;
+.logo_button {
+  width: 15rem;
 }
 .logo_background {
   opacity: 0.7;
