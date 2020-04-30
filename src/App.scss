@@ -97,11 +97,12 @@ a {
 
 #MenuButton {
   border: none;
+  object-fit: contain;
   width: 15rem;
   height: 15rem;
   z-index: 100;
   right: 4rem;
-  top: 2rem;
+  top: 4rem;
   position: fixed;
   cursor: pointer;
   transition: 2s ease-in-out;
@@ -110,22 +111,7 @@ a {
   align-items: center;
   background: none;
 }
-.initials_svg {
-  position: absolute;
-  width: 13rem;
-}
-.blobanimation {
-  position: absolute;
-  width: 20rem;
-}
 
-.animation_overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  z-index: 1000;
-}
 #MenuButton:focus {
   outline: none;
 }
@@ -147,7 +133,9 @@ a {
   flex-direction: column;
   font-family: Proxima-nova, sans-serif;
 }
-
+#logo_svg {
+  object-fit: contain;
+}
 .logo_background {
   opacity: 0.7;
   fill: #d29229;
@@ -156,6 +144,11 @@ a {
     opacity: 1;
   }
 }
+
+#Layer_1 {
+  width: 15rem;
+}
+
 .st1 {
   fill: #383938;
 }
