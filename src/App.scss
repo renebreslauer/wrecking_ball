@@ -220,15 +220,15 @@ a {
 
 @media only screen and (max-width: 550px) {
   h1 {
-    font-size: 4rem;
-  }
-  h2 {
     font-size: 2rem;
   }
-  h3 {
+  h2 {
     font-size: 1.5rem;
   }
-  p {
+  h3 {
     font-size: 1rem;
+  }
+  p {
+    font-size: 0.7rem;
   }
 }
