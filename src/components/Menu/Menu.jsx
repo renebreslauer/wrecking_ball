@@ -17,7 +17,7 @@ class Menu extends React.Component {
       >
         <div className="menu_container">
           <h2>
-            <a href="#Home">HOME</a>
+            <a href="">HOME</a>
           </h2>
           <h2>
             <a href="#About">ABOUT</a>
